@@ -1,6 +1,7 @@
 # Pumper
 Simple crypto algorithm which uses ascii.
 ### Build
+* ```pip install -r requirements.txt```
 * ```./build.sh``` on Linux or ```build.bat``` on Windows
 * **Person A** should use ```make_key``` and ```to_rsa_key``` then send ```public``` and ```rsa_key``` to **Person B**
 * **Person B** should use ```from_rsa_key``` after getting ```public``` and ```rsa_key``` files
